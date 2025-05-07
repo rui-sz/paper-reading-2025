@@ -30,7 +30,11 @@
 
     3. 本文目标，given a few images of a subject，**implant the subject** into the output domain of the model（Pre-trained, diffusion-based text-to-image framework）so that it can be synthesized with a unique identifier（prompt）
 
-![](https://aike0ghfh14.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDMzMTU3MmExZTgyZmZkZWIwZWFjMWU0MDViMjk4MWVfMGxkbGpqaDhKZ040cnkzM0FuSGVBcmFzaExYQjlYbGtfVG9rZW46WUFRT2J6allVb1lpaHF4d2FpWmNma0dCbkJlXzE3NDY1NDE3NjE6MTc0NjU0NTM2MV9WNA)
+![](https://aike0ghfh14.feishu.cn/space/api/box/stream/download/asynccode/?code=MmQ5YTNiZmQxMDExZmY4NDc2MjdiMDQ3ZGM1ODI3NTRfQ2tJNVBqSzVCNmZ1QWpXWXJjYWU4V1pWZnVsdU9DZExfVG9rZW46WUFRT2J6allVb1lpaHF4d2FpWmNma0dCbkJlXzE3NDY2MDkxMTc6MTc0NjYxMjcxN19WNA)
+
+![](https://aike0ghfh14.feishu.cn/space/api/box/stream/download/asynccode/?code=NmM5NzY5MmJkZDg4NGZjNmI2NWM5NDU1NTg5MzA5MmJfM0JVUDhIbEdKMTRYQjNSSG1udFhUTkdBcEdnc1k5OTZfVG9rZW46RzhPZWJBUkxyb29YRWl4d041OWNWU0FqbkFoXzE3NDY2MDkxMjE6MTc0NjYxMjcyMV9WNA)
+
+
 
 《Video Probabilistic Diffusion Models in Projected Latent Space》
 
