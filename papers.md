@@ -1,5 +1,23 @@
 # 2025.5
 
+## 2025.5.7
+
+《Make Pixels Dance: High-Dynamic Video Generation》
+
+文章要点：
+
+    1. Existing video generation model, Limited to generate simple scenes, tend to produce video clips with minimal motions
+
+    2. 当前已有的方法通过 proposed the use of highly descriptive text 来对视频生成做更好的控制，然而detailed text不仅costly，也难以学习，model 需要 significantly scale up
+
+    3. 生成long video，有两种方法：**Autoregressive method** 和 **Hierarchical method**，PixelDance，采用的是 autogressive method 思路，展现出了 a remarkable capability to generate high-quality videos in these out-of-domain categories（科幻、动漫等)
+
+    总体上，是非常好的一篇文章，以一种比较优雅的方式，实现了高质量、灵活的 video 生成
+
+![img](https://aike0ghfh14.feishu.cn/space/api/box/stream/download/asynccode/?code=YzI4ZWI0NDVlYTUxNWQ4YzlhM2IyZDU4MTIzYWMyMjNfaW52MkVCYkJNVm5VbnIwazNPWVlrbGZCR0prbno4Z01fVG9rZW46RDZZZGJXNXpPb09mN1R4cGVxNWNWOUR5bjljXzE3NDY2MDkwMjg6MTc0NjYxMjYyOF9WNA)
+
+![](https://aike0ghfh14.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDZiY2JjNjdjMWRhZGI3OGY1MzhjNWFmZTQ0YjYwY2VfQXRLTjNtVDFTQTZPQ1VUZDBpWGJMS2RKSGt5azdRbWhfVG9rZW46WTdURGJCTGkwb3NNTkR4T3Rkb2NvSDBrbnVjXzE3NDY2MDkwNDE6MTc0NjYxMjY0MV9WNA)
+
 ## 2025.5.6
 
 《DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation》
@@ -12,11 +30,7 @@
 
     3. 本文目标，given a few images of a subject，**implant the subject** into the output domain of the model（Pre-trained, diffusion-based text-to-image framework）so that it can be synthesized with a unique identifier（prompt）
 
-
-![](https://aike0ghfh14.feishu.cn/space/api/box/stream/download/asynccode/?code=Yzc1N2FlNzgxOWNkY2Y3NDYzY2NmNDdiY2VmN2Q0ZTFfRWhpY084M1FPOGEzenk3U1J3aU5YMUYxYWlFaXVuWFhfVG9rZW46RzhPZWJBUkxyb29YRWl4d041OWNWU0FqbkFoXzE3NDY1NDE3NTU6MTc0NjU0NTM1NV9WNA)
-
 ![](https://aike0ghfh14.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDMzMTU3MmExZTgyZmZkZWIwZWFjMWU0MDViMjk4MWVfMGxkbGpqaDhKZ040cnkzM0FuSGVBcmFzaExYQjlYbGtfVG9rZW46WUFRT2J6allVb1lpaHF4d2FpWmNma0dCbkJlXzE3NDY1NDE3NjE6MTc0NjU0NTM2MV9WNA)
-
 
 《Video Probabilistic Diffusion Models in Projected Latent Space》
 
