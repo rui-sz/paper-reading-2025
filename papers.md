@@ -1,6 +1,17 @@
 # 2025.5
 
 ## 2025.5.11
+《Zero-shot Image-to-Image Translation》
+
+文章要点：
+1，本文聚焦 image translation（也就是图像编辑问题），提出了 pix2pix-zero 方法
+
+2，实现方法，本质上相当于在 denoise 过程中，在 cross-attention 机制依赖的 text embedding 上，加入了 edit text 这个方向向量，这样通过 cross attention guidance 就可以保持原有结构
+
+3，效果上，本文方法在image quality和content preservation方面 outperform 了 SDEdit 和 prompt-to-prompt
+本文提出方法，在保留原始image内容框架的基础上，引入 specific text editing，思路很新颖，效果很不错。
+
+
 《Pix2Video: Video Editing using Image Diffusion》
 
 文章要点：
