@@ -3,6 +3,16 @@
 ## 2025.5.11
 《Pix2Video: Video Editing using Image Diffusion》
 
+文章要点：
+
+1，本文研究 text-guided video editing 问题，挑战在于achieve the target edits while preserve the content of the source video（balance）
+
+2，image diffusion models do image generation good, quality and diversity. 本文研究用such pre-trained models for text-guided video editing
+
+3，pix2video，基于pretrained and fixed diffusion model，training free 的方法。通过 manipulate the internal features of diffusion model along with additional guidance constraints
+
+4，实验结果，Pix2Video is on par or superior to baselines while not requiring additional pre-processing or finetuning
+
 
 ## 2025.5.7
 
