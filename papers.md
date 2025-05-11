@@ -1,5 +1,9 @@
 # 2025.5
 
+## 2025.5.11
+《Pix2Video: Video Editing using Image Diffusion》
+
+
 ## 2025.5.7
 
 《Make Pixels Dance: High-Dynamic Video Generation》
