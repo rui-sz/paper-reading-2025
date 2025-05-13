@@ -39,10 +39,6 @@
 
     总体上，是非常好的一篇文章，以一种比较优雅的方式，实现了高质量、灵活的 video 生成
 
-![img](https://aike0ghfh14.feishu.cn/space/api/box/stream/download/asynccode/?code=YzI4ZWI0NDVlYTUxNWQ4YzlhM2IyZDU4MTIzYWMyMjNfaW52MkVCYkJNVm5VbnIwazNPWVlrbGZCR0prbno4Z01fVG9rZW46RDZZZGJXNXpPb09mN1R4cGVxNWNWOUR5bjljXzE3NDY2MDkwMjg6MTc0NjYxMjYyOF9WNA)
-
-![](https://aike0ghfh14.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDZiY2JjNjdjMWRhZGI3OGY1MzhjNWFmZTQ0YjYwY2VfQXRLTjNtVDFTQTZPQ1VUZDBpWGJMS2RKSGt5azdRbWhfVG9rZW46WTdURGJCTGkwb3NNTkR4T3Rkb2NvSDBrbnVjXzE3NDY2MDkwNDE6MTc0NjYxMjY0MV9WNA)
-
 ## 2025.5.6
 
 《DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation》
