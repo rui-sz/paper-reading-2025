@@ -1,5 +1,16 @@
 # 2025.5
 
+## 5.13
+《Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation》
+2023.3 腾讯和NUS的一篇工作，内容要点：
+1，T2V generation model，依赖在 extensive video data 上训练，非常消耗资源，本文希望复用T2I model的成果，通过轻量级解决方案来达到比较好的效果
+2，Turn-a-video 的方案分成两步：model finetuning，通过在 T2I diffusion model 上引入 ST-attention，在 one pair data上tune model，让其学会捕捉 temporal consistency by querying relevant positions in previous frames
+3，第二步：在 inference 阶段，通过基于 DDIM inversion 的 latent noise of source video 作为 input 和 guidance 信息，从而让模型能够保持 input video 的 structure
+4，从实验结果来看，其视频编辑结果相比 CogVideo 和 Plug-and-play 都要更好
+5，本文的方法可以被用在 Object editing，Background change，Style transfer，Personalized and controllable generation 等领域
+
+
+
 ## 2025.5.11
 《Zero-shot Image-to-Image Translation》
 
