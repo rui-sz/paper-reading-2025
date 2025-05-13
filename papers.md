@@ -9,6 +9,11 @@
 4，从实验结果来看，其视频编辑结果相比 CogVideo 和 Plug-and-play 都要更好
 5，本文的方法可以被用在 Object editing，Background change，Style transfer，Personalized and controllable generation 等领域
 
+《Language model beats diffusion: tokenizer is key to visual generation》
+2024.3 Google和CMU的一篇文章，内容要点：
+1，主要论述一个好的 visual tokenizer 带来的好处；传统上，LLMs 在image/video generation任务上表现不好，原因在于缺少 good visual representation，本文第一次验证 LLM 在imagenet benchmark上 beat diffusion model，with a good visual tokenizer
+2，从实验结果看，在使用 MGAVIT-v2 video tokenizer的情况下，相应MLM模型的 video generation, video compression, video understanding 对比其他方法都取得很好的效果
+3，结合这个 tokenizer，LLMs outperform diffusion model 在 ImageNet/Kinetics 等image/video generation benchmarks上；在 video compression 和 action recognition 上表现也更好，对比 previous top-performing video tokenizer
 
 
 ## 2025.5.11
