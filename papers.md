@@ -1,5 +1,13 @@
 # 2025.5
 
+## 5.15
+《VDM: Video Diffusion Models》
+2022.6 Google 的一篇文章，内容要点：
+1，本文将最近 image 生成的SOTA模型 diffusion model 扩展到 video 领域，提出VDM model，present first results on video generation using diffusion models, for both conditional and unconditional settings
+2，Image diffusion model 的标准架构是 2D U-Net，用于图像信号的 spatial 建模，VDM将2D拓展到3D，factorized over space and time，with interleaved spatial and temporal attention，让模型具有视频建模的能力
+3，从实验结果看，VDM 在 unconditional, conditional video generation（video prediction） 等任务中都取得了 SOTA 的结果，text-conditioned video generation 也表现不错
+
+
 ## 5.13
 《Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation》
 2023.3 腾讯和NUS的一篇工作，内容要点：
