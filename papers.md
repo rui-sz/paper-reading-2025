@@ -7,6 +7,13 @@
 2，Image diffusion model 的标准架构是 2D U-Net，用于图像信号的 spatial 建模，VDM将2D拓展到3D，factorized over space and time，with interleaved spatial and temporal attention，让模型具有视频建模的能力
 3，从实验结果看，VDM 在 unconditional, conditional video generation（video prediction） 等任务中都取得了 SOTA 的结果，text-conditioned video generation 也表现不错
 
+《MAGVIT: Masked generative video transformer》
+2022.12，大神Lu Jiang的一篇文章，内容要点：
+1，本文的目标是，Design a multi-task video generation model with high quality and inference efficiency
+2，推出了模型 MAGViT（MAsked Generative VIdeo Transformer），包含两步，Learn a 3D tokenizer，to quantize a video into spatial-temporal visual tokens；然后 train a video transformer: Emb method for masked video token modeling to facilitate multi-task learning
+3，训练过程是 multi-task 的，最终训出来的 model 能适应多种任务，frame prediction/interpolation；out/in-painting；class conditional generation 等等
+4，从最终结果来看，MAGVIT establish the best FVD on three video benchmarks，推理性能上，相比 diffusion models （Video diffusion models）有2个数量级的提升，比 AR video transformer （Long video generation with time-agnostic VQGAN and time sensitive transformer）快60倍
+
 
 ## 5.13
 《Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation》
