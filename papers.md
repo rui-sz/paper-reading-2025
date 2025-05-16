@@ -1,5 +1,15 @@
 # 2025.5
 
+## 5.16
+《A Survey on Multimodal Large Language Models》
+2024年中科大的一篇 MLLM 综述，内容要点：
+1，本文围绕MLLM的几个 essential aspects 对200+文献做了综述，包括 model arch, training strategy and data, performance evaluation
+2，model arch 的三个主要模块：encoder，connector，LLM，分别概述了对应模块的选型和特性
+3，training strategy：pre-train，instruct-tuning，alignment-tuning
+4，Evaluation：closed-set 和 open-set，分别有不同的指标和计算方法
+![alt text](image.png)
+
+
 ## 5.15
 《VDM: Video Diffusion Models》
 2022.6 Google 的一篇文章，内容要点：
