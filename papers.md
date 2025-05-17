@@ -1,6 +1,15 @@
 # 2025.5
 
 ## 5.17
+《Prompt-to-Prompt Image Editing with Cross Attention Control 》
+2022.8 Google Research 的一篇文章，内容要点
+1，本文研究 image editing 问题，提供了一种方法，在基本保持 spatial layout 的基础上实现 text-driven editing
+2，Text-driven model generate High diverse images follow given texts，然而它们比较难用于 text-driven image editing，因为 even a small modification of the text prompt 可以导致一个完全不同的 outcome；当前的SOTA做法，比如让user提供masked region
+3，本文 dive deep 分析 text-conditioned model，发现 cross-attention layers 是控制 spatial layout of the image to each word of prompt 之间 relation 的关键要素。在T2I model中 cross-attention 的强大能力
+4，提出 prompt-to-prompt editing framework，edits完全被texts control。不需要依赖 model training, fine-tuning, extra-data or something.
+5，本文方法可应用于：Image Stylization、Global Editing、Real Image Editing 等
+
+
 《Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation 》
 2022.11 一篇 image editing 的文章，内容要点
 1，本文研究 text-guided image-to-image translation tasks
