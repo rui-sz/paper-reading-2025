@@ -1,5 +1,18 @@
 # 2025.5
 
+## 5.17
+《Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation 》
+2022.11 一篇 image editing 的文章，内容要点
+1，本文研究 text-guided image-to-image translation tasks
+2，基于一个图片输入和一个 fixed text-to-image diffusion model，用text-guided，生成想要的目标图片，outperform existing SOTA baselines，achieve significantly better balance between preserving the guidance layout and 变化外观
+3，本文的方法不需要任何 training or fine-tuning，而是直接通过一个 simple framework manipulate the spatial features。简单来说，就是将 guidance image denoising 过程中的 spatial feature 和 cross attention 信息，注入到 text-to-image diffusion model的生成过程中
+4，最终效果，就是 preserve the structure and layout of input image，同时结合 text prompt 生成了需要的信息。
+5，本文方法依赖 original 和 translated content 在 diffusion feature space 的语义关联性，因此如果没有语义关联性，就有 limitation。
+
+挺有意思的一篇文章，竟然是2022年的了，以色列的科研实力可以的。
+
+![alt text](image/image-1.png)
+
 ## 5.16
 《A Survey on Multimodal Large Language Models》
 2024年中科大的一篇 MLLM 综述，内容要点：
@@ -7,7 +20,7 @@
 2，model arch 的三个主要模块：encoder，connector，LLM，分别概述了对应模块的选型和特性
 3，training strategy：pre-train，instruct-tuning，alignment-tuning
 4，Evaluation：closed-set 和 open-set，分别有不同的指标和计算方法
-![alt text](image.png)
+![alt text](image/image.png)
 
 
 ## 5.15
