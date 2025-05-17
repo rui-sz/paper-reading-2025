@@ -1,6 +1,14 @@
 # 2025.5
 
 ## 5.17
+《LLaVA 1.5: Improved Baselines with Visual Instruction Tuning》
+2023.10 Microsoft 的一篇文章，LLaVA model的后续，内容要点
+1，本文起源于 LLaVA，从 the perspectives of the input, model, and data systematic 研究 LMM 的design choices，在一个 controlled setting 下
+2，本文发现 improve V-L connector to two-layer MLP can improve LLaVA's multimodal capabilities；在scale up 的影响方面，scale data, resolution, connector, model size 几个点都有作用；scale up image resolution 可以减少幻觉
+3，LLaVA 是最简单的 LMM 架构之一，训练量少，并且在VQA，MME/SEED 等数据集上都表现出SOTA的性能。本文基于LLaVA，研究模型的一些 scale up 要素，有比较多有价值的结论，最终得到升级版模型 LLaVA 1.5
+
+![alt text](image/image-llava1.5.png)
+
 《Prompt-to-Prompt Image Editing with Cross Attention Control 》
 2022.8 Google Research 的一篇文章，内容要点
 1，本文研究 image editing 问题，提供了一种方法，在基本保持 spatial layout 的基础上实现 text-driven editing
