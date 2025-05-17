@@ -1,6 +1,13 @@
 # 2025.5
 
 ## 5.17
+《Control-A-Video: Controllable Text-to-Video Diffusion Models with Motion Prior and Reward Feedback Learning》
+2024年中大的一篇文章，内容要点
+1，本文目标提出了一个 controllable T2V framework for generating videos based on text prompts and control maps. Generate higher-quality, more consitent videos compared to existing SOTA methods in controllable text-to-video generation
+2，方法上，基于LDMs 和 ControlNet，extra trainable motion layers applied to UNet and ControlNet for temporal modeling，有几个改进点：noise manipulation（control map, content prior） to enhance temporal consistency，训练时结合ST-ReFT reward
+3，总体上，本文基于 diffusion model，用到了 content prior、motion prior等信息加强 temporal consistency，训练时结合ST-ReFT。应用场景上可用于控制视频生成，也可以用来做 video editing
+
+
 《LLaVA 1.5: Improved Baselines with Visual Instruction Tuning》
 2023.10 Microsoft 的一篇文章，LLaVA model的后续，内容要点
 1，本文起源于 LLaVA，从 the perspectives of the input, model, and data systematic 研究 LMM 的design choices，在一个 controlled setting 下
