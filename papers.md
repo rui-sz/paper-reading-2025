@@ -1,5 +1,13 @@
 # 2025.5
 
+## 5.18
+《ControlNet: Adding Conditional Control to Text-to-Image Diffusion Models》
+2023.11 Stanford 的一篇影响比较大的工作，内容要点
+1，本文提出 ControlNet arch，可以在 large pretrained T2I diffusion model 的基础上，learn conditional control
+2，实验结果显示，ControlNet 可以有效控制SD with single or multiple conditions，with or without prompts
+3，Spatial control conditions：edges, depth, segmentation, human pose
+
+
 ## 5.17
 《Control-A-Video: Controllable Text-to-Video Diffusion Models with Motion Prior and Reward Feedback Learning》
 2024年中大的一篇文章，内容要点
