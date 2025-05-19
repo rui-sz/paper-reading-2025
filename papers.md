@@ -1,5 +1,14 @@
 # 2025.5
 
+## 5.19
+《Imagen Video: HIGH DEFINITION VIDEO GENERATION WITH DIFFUSION MODELS》
+2022.10 Google 的一篇 video generation文章，内容要点
+1，推出了 Imagen Video 方法，基于 VDM 和 SSR, TSR 等，实现了 text-to-video high fidelity 生成
+2，通过 FID,FVD,CLIP 等指标做评估，能看出来具有 scaling up 效应
+3，从生成效果上看，还是听不多的，在生成内容多样性，以及 temporal 一致性上都还不错，不过画面变动幅度并不大
+
+总体上，属于 Imagen 这篇文章的 video 版本，同样的cascaded框架。
+
 ## 5.18
 《ControlNet: Adding Conditional Control to Text-to-Image Diffusion Models》
 2023.11 Stanford 的一篇影响比较大的工作，内容要点
