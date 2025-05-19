@@ -9,6 +9,13 @@
 
 总体上，属于 Imagen 这篇文章的 video 版本，同样的cascaded框架。
 
+《ControlVideo: Training-free Controllable Text-to-Video Generation》
+2023.5 Huawei 和哈工大的一篇文章，内容要点：
+1，Video generation 发展遇到的问题有，Image diffusion generation model 很成功，但是video模型遇到 excessive cost of tempral modeling；Appearance inconsistency and structural flickers, especially in long video synthesis
+2，本文目标：consistent and efficient video generation。基于 ControlNet，提出了 ControlVideo model，引入了3个核心机制：fully cross-frame interaction，Interleaved-frame smoother，a hierarchical sampler
+3，从实验结果来看，相比其它同时期的 model，ControlVideo 无论在生成内容质量（appearance and structure consistency）上，以及推理速度上，都有比较好的表现。
+
+
 ## 5.18
 《ControlNet: Adding Conditional Control to Text-to-Image Diffusion Models》
 2023.11 Stanford 的一篇影响比较大的工作，内容要点
