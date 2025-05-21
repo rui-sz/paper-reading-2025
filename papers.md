@@ -1,5 +1,13 @@
 # 2025.5
 
+## 5.21
+《Text2Video-Zero: Text-to-Image Diffusion Models are Zero-Shot Video Generators》
+2023.3 PAIR 的一篇文章，T2I 和 T2V 相关，内容要点：
+1，由于 text-to-image 的发展，表现出 great image quality，大家希望 exploit text-to-image models for video generation
+2，本文提出 Text2Video-Zero，不需要做额外训练，Zero shot text-to-video generation，主要对T2I model有2个改进，latent codes of the generated frames with motion dynamics，以及Cross-frame attention of each frame on the first frame
+3，T2V-Zero 可用于 text-to-video 合成，conbined with ControlNet/DreamBooth Generate Conditional and context-specialized video generation，以及 Video instruct-pix2pix 用于视频编辑
+
+
 ## 5.19
 《Imagen Video: HIGH DEFINITION VIDEO GENERATION WITH DIFFUSION MODELS》
 2022.10 Google 的一篇 video generation文章，内容要点
