@@ -1,3 +1,14 @@
+# 2025.6
+
+## 6.2
+《AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning》
+2024.2 香港中文大学，SAIL，Stanford 合作的一篇文章，内容要点：
+1，本文研究在 T2I diff model的基础上，如何生成动态内容。这是一个比较难的问题
+2，本文设计了 AnimateDiff，an effective pipeline for addressing the problem of animating personalized T2Is while preserving their visual quality and domain knowledge. 可以和 ControlNet/T2i-Adapter 等结合起来，实现 controllable animation generation
+3，从结果来看，还是比较不错的
+![alt text](image/AnimateDiff-image.png)
+
+
 # 2025.5
 
 ## 5.21
