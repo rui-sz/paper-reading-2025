@@ -1,5 +1,13 @@
 # 2025.6
 
+## 6.9
+《Bagel: Emerging Properties in Unified Multimodal Pretraining》
+2025.5 字节的一篇文章，内容要点：
+1，本文研究 unified multi-modal generation and understanding，推出了 BAGEL model，在 multimodal understanding and generation tasks 上显示出 top-tier performance
+2，BAGEL，Scalable Generative Cognitive Model，展示出 multimodal reasoning abilities，性能competitive with SD3 和 Flux 
+3，随着 training data 的scale up， 观察到 clear emergence pattern：【理解&生成】basic multimodal understanding and high-fidelity generation converge first；【编辑】complex editing and free-form visual manipulation abilities surface（浮出水面）；【推理】long-context reasoning starts to benefit multimodal understanding and generation
+
+
 ## 6.2
 《AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning》
 2024.2 香港中文大学，SAIL，Stanford 合作的一篇文章，内容要点：
